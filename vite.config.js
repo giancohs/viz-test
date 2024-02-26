@@ -5,6 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte()],
+  base: "/viz-test/",
   resolve: {
     alias: {
       "$components": path.resolve('./src/components'),
